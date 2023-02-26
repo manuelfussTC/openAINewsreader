@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "symfony/web-server-bundle": "^4.4"
+    },
+    "require": {
+        "serpwow/google-search-results": "^0.2.5",
+        "orhanerday/open-ai": "^3.5"
+    }
+}
