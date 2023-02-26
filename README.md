@@ -26,12 +26,18 @@ Some key takeaways from the experiment are:
 Usage
 -----
 
-To use this code, you will need to have a valid OpenAI API key and install the necessary packages listed in the requirements file. After setting up the API connection and collecting news articles, run the main.py file to generate the summarized article.
+To use this code, you will need to have a valid OpenAI API key as well as a SerpWOW API key and install the necessary packages listed in the requirements file. After setting up the API connection and collecting news articles, run the index.php file to generate the summarized article.
 
-Acknowledgements
-----------------
+```
+// run the webserver first
+php -S localhost:9000
 
-The initial idea for this project was inspired by a blog post from the OpenAI team. The code is based on the Python wrapper for the OpenAI API created by Hugging Face, and the web scraping module uses SerpWow.
+/initially install the needed packages
+composer install
+```
+
+Then open your browser at http://localhost:9000/ and wait
+
 
 License
 -------
